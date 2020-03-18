@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+//import ImageName from './filter/index';
+//import Form from './form/index';
+//import News from './news/index';
+//import FlexPage from './flexpage/index';
+//import Main from './main/main';
+//import Album from './AlbumPage/Album';
+//import AlbumList from './AlbumPage/AlbumList';
+//import ModalExample from './ModalExample/ModalExample';
+//import MainPage from './ModalExample/MainPage';
+import TicTacTo from './TicTacTo/TicTacTo';
+import {BrowserRouter} from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //<BrowserRouter>
+      <TicTacTo/>
+    //</BrowserRouter>
+    
   );
 }
 
